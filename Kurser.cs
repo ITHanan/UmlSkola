@@ -8,7 +8,7 @@ namespace UmlSkola
 
         public void visaKurser()
         {
-            Console.WriteLine("Here where you can see all courses ");
+            Console.WriteLine("Here where you can see all courses IDss ");
         }
     
     }

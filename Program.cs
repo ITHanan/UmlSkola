@@ -7,15 +7,14 @@ namespace UmlSkola
 
         static void Main(string[] args)
         {
-            
-            Skola myskola = new Skola() ;
-            myskola.Names("NBI/Handelsakademin");
 
 
             Console.WriteLine("----------skola--------------");
+            Skola myskola = new Skola() ;
+            myskola.Names("NBI/Handelsakademin");
 
             Skola schoolregis = new Skola();
-            schoolregis.RegistrersStudent(".net");
+            schoolregis.RegistrersStudent(".Net");
 
             Console.WriteLine("----------kurser--------------");
 
@@ -29,7 +28,7 @@ namespace UmlSkola
 
 
             Teacher teacher = new Teacher() ;
-            teacher.visaName();
+            teacher.visaFirstName("Nimo");
             teacher.undervisas(".Net");
             teacher.delaLäx();
             teacher.geBetyg();
@@ -38,8 +37,8 @@ namespace UmlSkola
             Console.WriteLine("----------elevers--------------");
 
 
-            Eleve eleve = new Eleve() ; 
-            eleve.visaName();
+            Eleve eleve = new Eleve() ;
+            eleve.visaFirstName("Hanan");
             eleve.registeration();
             eleve.skikaläxa();
             eleve.göraProv();

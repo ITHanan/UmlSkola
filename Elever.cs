@@ -13,10 +13,13 @@ namespace UmlSkola
 
 
 
-        public override void visaName()
+        public override void visaFirstName(string ferstName)
         {
-            Console.WriteLine(" The student's nmae is  " + ferstName + EfterName);
+            Console.WriteLine(" The student's nmae is  " + ferstName );
+
         }
+        
+        
 
         public  void visaBetyg()
         {
@@ -37,7 +40,7 @@ namespace UmlSkola
         public void göraProv()
 
         {
-            Console.WriteLine(" Student doing his prov ...");
+            Console.WriteLine(" Student and prov ...");
         }
 
 
