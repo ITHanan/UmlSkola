@@ -11,10 +11,10 @@ namespace UmlSkola
 
             Console.WriteLine("----------skola--------------");
             Skola myskola = new Skola() ;
-            myskola.Names("NBI/Handelsakademin");
+            myskola.Names("");
 
             Skola schoolregis = new Skola();
-            schoolregis.RegistrersStudent(".Net");
+            schoolregis.RegistrersStudent("");
 
             Console.WriteLine("----------kurser--------------");
 
@@ -28,8 +28,9 @@ namespace UmlSkola
 
 
             Teacher teacher = new Teacher() ;
-            teacher.visaFirstName("Nimo");
-            teacher.undervisas(".Net");
+            teacher.visaFirstName("");
+            teacher.visaEfterName("");
+            teacher.undervisas("");
             teacher.delaLäx();
             teacher.geBetyg();
             teacher.geBetyg();
@@ -38,7 +39,9 @@ namespace UmlSkola
 
 
             Eleve eleve = new Eleve() ;
-            eleve.visaFirstName("Hanan");
+            eleve.visaFirstName("");
+            teacher.visaEfterName("");
+
             eleve.registeration();
             eleve.skikaläxa();
             eleve.göraProv();
@@ -48,8 +51,8 @@ namespace UmlSkola
 
 
             Betyg betyg = new Betyg() ;
-            betyg.geBetyg("VG");
-            betyg.geKommentar(" The student completed the necessary tasks with efficiency.");
+            betyg.geBetyg("");
+            betyg.geKommentar(" ");
 
 
 
